@@ -1,8 +1,7 @@
 from flask             import Flask, render_template, jsonify, request, Response
 from PIL               import Image, ImageOps 
 from io                import BytesIO
-import sklearn
-import joblib
+from sklearn.externals import joblib
 import pickle
 import json
 import pickle
